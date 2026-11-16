@@ -1,0 +1,21 @@
+{
+  "owner_qq": {
+    "description": "有权查看小屋的 QQ 号",
+    "type": "string",
+    "default": "",
+    "hint": "填写你用来私聊机器人的 QQ 号。"
+  },
+  "home_port": {
+    "description": "小屋本机端口",
+    "type": "int",
+    "default": 3218,
+    "hint": "启动小屋后，使用 qq-link.json 中的 port。"
+  },
+  "home_token": {
+    "description": "小屋联动令牌",
+    "type": "string",
+    "default": "",
+    "secret": true,
+    "hint": "填写小屋 qq-link.json 中的 token。"
+  }
+}

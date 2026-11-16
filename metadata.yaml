@@ -1,0 +1,14 @@
+name: astrbot_plugin_big_fat_fish_home
+display_name: 大肥鱼小屋
+short_desc: 在 QQ 私聊查看小屋活动和实时场景截图。
+desc: >-
+  把公开版大肥鱼小屋接入 AstrBot。在 QQ 私聊发送「肥鱼小屋」可查看当前活动，发送「肥鱼截图」可收到实时场景图。需在同一台机器运行大肥鱼小屋。
+version: 0.1.0
+author: ktouch10
+repo: https://github.com/ktouch10/astrbot_plugin_big_fat_fish_home
+astrbot_version: ">=4.29.4,<5"
+support_platforms:
+  - aiocqhttp
+tags:
+  - 娱乐
+  - 外部集成
